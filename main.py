@@ -1,4 +1,4 @@
-# pip install openai python-dotenv
+# pip install openai python-dotenv langchain langchain-openai langchain-core pydantic
 
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
