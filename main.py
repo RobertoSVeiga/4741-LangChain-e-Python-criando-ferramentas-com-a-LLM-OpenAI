@@ -1,11 +1,11 @@
 # pip install openai python-dotenv langchain langchain-openai langchain-core pydantic
 
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 from pydantic import Field, BaseModel
 from dotenv import load_dotenv
-from langchain.globals import set_debug
+from langchain_core.globals import set_debug
 import os
 
 set_debug(True)
